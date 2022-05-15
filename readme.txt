@@ -1,2 +1,0 @@
-konnitiha
-arigatou
