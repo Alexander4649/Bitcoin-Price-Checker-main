@@ -2,25 +2,31 @@
 <html lang="ja">
   <head>
     <meta charset="UTF-8">
+    <link rel="stylesheet" href="hp-site.css" />
     <title>Bitcoin Price Checker</title>
   </head>
   <body>
     <h1>Bitcoin Price Checker</h1>
-    <p>検索したい通貨と日付を入力して下さい。</p>
+
+    <p>価格を調べたい通貨と日付を入力して下さい</p>
     
-    <div id = "currency select">
+    <div id = "currencyselect">
       <div class= "currency">通貨</div>
       <form action = "#" method = "post">
-        <select name = "currency select">
+        <div style = "padding-left:30px;">
+        <select name = "currencyselect">
+          <option value = "-">-</option>
           <option value = "BTC">BTC</option>
           <option value = "ETH">ETH</option>
         </select>
+        </div>
       </form>
     </div>
     <br>
     
     <div id = "date">
       <form action = "#" method = "post">
+      <div style = "padding-left:30px;">
       <select name = "year">
         <option value="">-</option>
 　　　　<option value="2008">2008</option>
@@ -93,6 +99,7 @@
 　　　　　<option value="31">31</option>
 　　　　　</select> 日
 　　　　　</form>
+　　　　　</div>
     </div>
     
   </body>
