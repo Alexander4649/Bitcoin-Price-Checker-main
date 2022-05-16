@@ -1,0 +1,29 @@
+body {
+  background-image: url("img/green.jpeg");
+  background-size: cover;
+}
+
+h1 {
+
+  font-size: 50px;
+  text-align: center;
+  font-weight: bold;
+}
+
+p {
+  font-size: 38px;
+  font-weight: bold;
+  text-align: left;
+  padding-left: 30px;
+}
+
+.currency {
+  font-size: 30px;
+  font-weight:bold;
+  text-align: left;
+  padding-left: 30px;
+}
+
+.search {
+  position: relative; left:140px; bottom:24px;
+}
