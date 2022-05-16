@@ -1,13 +1,30 @@
 body {
-  background-image: url("img/green.jpeg");
-  background-size: cover;
+  background-image: url("img/green.jpeg"); /*背景フルに画像を使用する場合はbodyに指示すること*/
+  background-size: cover; /*背景画像の位置調整*/
 }
 
 h1 {
-
+  color:blue;
   font-size: 50px;
-  text-align: center;
-  font-weight: bold;
+  font-weight: bold; /* テキストの太さ調整*/
+  text-align: center; /*テキストの位置調整*/
+  width: 650px; /*背景色幅調整*/
+  height: auto;/*背景色高さ調整*/
+  margin: 0 auto; /*背景色中央寄せ*/
+  background-color:yellow; /*背景色*/
+  /*background:linear-gradient(transparent 90%, #FFFF00 0%); ==> マーカーのような下線を引くときに使う*/ 
+}
+
+span1 {
+  color:red; /*span1で囲った部分のみ文字色調整*/
+}
+
+span2 {
+  color: black; /*span2で囲った部分のみ文字色調整*/
+}
+
+span3 {
+  color: yellow;
 }
 
 p {
@@ -25,7 +42,6 @@ p {
 }
 
 .search {
-  position: relative; left:140px; bottom:24px;
+  display:flex;
+  padding-top: 10px;
 }
-
-/*テストです*/
