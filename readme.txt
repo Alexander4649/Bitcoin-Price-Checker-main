@@ -1,4 +1,1 @@
-testdesu
-watasidesu
-konnitiha
-genkaidesu
+Ruby　を書いてます。
